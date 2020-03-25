@@ -31,7 +31,7 @@
             </div>
 
             <div class="col-sm-12 col-lg-2" style="text-align: right; color: #E84F05; font-weight: bold">
-                NZD @item.Book.Price
+                USD @item.Book.Price
             </div>
 
         </div>
@@ -51,9 +51,9 @@
             </div>
             <div class="col-sm-12 col-lg-2">
                 <ul style="color: #E84F05; font-weight: bold">
-                    <li>NZD @Model.SubTotal</li>
-                    <li>NZD @Model.GST</li>
-                    <li>NZD @Model.GrandTotal</li>
+                    <li>USD @Model.SubTotal</li>
+                    <li>USD @Model.GST</li>
+                    <li>USD @Model.GrandTotal</li>
                 </ul>
                 <a class="btn btn-success" asp-action="Create" asp-controller="Orders">
                     Checkout <span class="glyphicon glyphicon-step-forward"></span>

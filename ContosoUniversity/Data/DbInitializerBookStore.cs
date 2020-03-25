@@ -21,7 +21,7 @@ namespace ContosoUniversity.Data
                 new Category{Code="001", Name="Arts & Music"},
                 new Category{Code="002", Name="Business"},
                 new Category{Code="003", Name="Sports"},
-                new Category{Code="004", Name="Maori Culture"}
+                new Category{Code="004", Name="Culture"}
             };
 
             foreach (Category item in categories)
@@ -46,8 +46,8 @@ namespace ContosoUniversity.Data
 
             var accounts = new Account[]
             {
-                new Account{Name="Administrator", RoleID=1, Email="trungquanlai@gmail.com", PhoneNoMobile="0272951397", Password="admin", Active=true},
-                new Account{Name="User1", RoleID=2, Email="trungquanlai@gmail.com", PhoneNoMobile="0272951397", Password="admin", Active=true}
+                new Account{Name="Administrator", RoleID=1, Email="mike.autoland003@gmail.com", PhoneNoMobile="0966842433", Password="admin", Active=true},
+                new Account{Name="User1", RoleID=2, Email="mike.autoland003@gmail.com", PhoneNoMobile="0966842433", Password="mike", Active=true}
             };
 
             foreach (Account item in accounts)
@@ -59,7 +59,7 @@ namespace ContosoUniversity.Data
 
             var suppliers = new Supplier[]
             {
-                new Supplier {Name="Supplier 01", PhoneNoMobile="0272951397"}
+                new Supplier {Name="Supplier 01", PhoneNoMobile="0966842433"}
             };
 
             foreach (Supplier item in suppliers)

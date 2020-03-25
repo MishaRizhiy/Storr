@@ -29,7 +29,6 @@ namespace ContosoUniversity
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            //Added in Week 1 Exercise, 16/7/2019
             services.AddDbContext<BookStoreContext>(options =>
 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
